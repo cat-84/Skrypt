@@ -1,6 +1,7 @@
 cd /d %userprofile%/desktop
 mkdir Audyt
 cd Audyt
+echo %date% %time% >> %COMPUTERNAME%.txt
 hostname >> %COMPUTERNAME%.txt
 whoami >> %COMPUTERNAME%.txt
 ipconfig /all >> %COMPUTERNAME%.txt
