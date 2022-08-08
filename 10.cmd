@@ -15,3 +15,4 @@ wmic bios get serialnumber  >> %COMPUTERNAME%.txt
  
 wmic computersystem get totalphysicalmemory >> %COMPUTERNAME%.txt
 
+echo %date% %time% >> %COMPUTERNAME%.txt
